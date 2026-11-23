@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header,header h1{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+header p{
+  margin: 10px;
+  padding: 10px 10px 25px 10px;
+}
+
+nav{
+  margin: 10px;
+  padding: 10px;
+}
+
+figure,section{
+  margin: 10px;
+  padding: 0px 0px 0px 5px;
+  border-radius: 7px;
+}
+
+figure img{
+  margin: 3px;
+}
+
+.image{
+  padding: 10px 10px 17px 15px;
+}
+
+section h3,section p{
+  margin: 5px 10px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+section progress,section meter{
+  width: 300px;
+}
+
+.bingyin,.duihua{
+  padding: 30px 0px 17px 0px;
+}
+
+.wenda{
+  margin: 10px;
+  padding: 10px 10px 10px 0px;
+}
+
+details{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid rgba(196, 196, 54, 0.868) ;
+}
+
+details summary{
+  margin: 10px 10px 0px 10px;
+  padding: 0px 10px 10px 0px;
+}
+
+details p{
+  margin: 0px 10px 10px 10px;
+  padding: 0px 10px 10px 0px;
+}
+
+aside{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+aside h3{
+  margin: 10px;
+  padding: 10px 0px 0px 0px;
+}
+
+aside p{
+  margin: 10px;
+  padding: 10px 0px 10px 0px;
+}
+
+footer{
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+}
+
+footer hr{
+  margin: 13px 0px 20px 0px;
+}

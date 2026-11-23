@@ -1,0 +1,16 @@
+header h1,header p{
+  color: white;
+}
+nav a,h3,details summary{
+  color: rgb(147, 13, 13);
+}
+footer p{
+  font-weight: 100;
+  font-size: 13px;
+}
+nav a{
+  text-decoration: none;
+}
+nav p{
+  white-space: pre-wrap;
+} 

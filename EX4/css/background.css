@@ -1,0 +1,19 @@
+body{
+  background: rgb(243, 243, 224);
+}
+
+header{
+  background-image:linear-gradient(90deg,rgb(173, 3, 3) ,rgb(163, 71, 21) 80%);
+}
+
+figure,section{
+  background: rgb(138, 10, 10);
+}
+
+.image,.bingyin,.duihua,details{
+  background: white;
+}
+
+aside{
+  background: rgb(240, 219, 170);
+}

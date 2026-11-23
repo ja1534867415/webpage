@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>匠心好物</title>
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/border.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
+    <header>
+        <h1>匠心好物·非遗好物一页通</h1>
+        <p>用结构标签搭骨架，用交互标签优体验</p>
+    </header>
+    <nav>
+        <p><a href="#瑶秀">瑶秀</a>  |  <a href="#张田饼印">张田饼印</a>  |  <a href="#米酒">米酒</a>  |  <a href="#问答">问答</a></p>
+    </nav>
+    <main>
+        <article>
+            <figure>
+                <div class="image">
+                    <img src="相关图片/yaoxiu.png" alt="瑶秀" width="300"><img src="相关图片/bingyin.png" alt="张田饼印" width="300"><img src="相关图片/duihua.png" alt="米酒" width="300">
+                </div>
+            </figure>
+            <section id="张田饼印">
+                <div class="bingyin">
+                    <h3>张田饼印</h3>
+                    <p>饼印用于在糕点压出花纹，是代代相传的木雕手艺。</p>
+                    <p>了解进度：<progress max="100" value="60"></progress></p>
+                </div>
+            </section>
+            <section id="米酒">
+                <div class="duihua">
+                    <h3>石塘堆花米酒</h3>
+                    <p>堆花米酒以传统工艺酿造，是韶关特色好物。</p>
+                    <p>推荐指数：<meter value="80" max="100" min="0" high="80" low="60" optimum="100"></meter></p>
+                </div>
+            </section>
+        </article>
+        <article>
+            <h3 class="wenda" id="问答">常见问答（点标签展开）</h3>
+            <details>
+                <summary>瑶秀有哪些常见纹样？</summary>
+                <p>常见有花鸟、几何纹样，多用红、黑、白等对比色。</p>
+            </details>
+            <details>
+                <summary>一页能有几个 main?</summary>
+                <p>只能有一个 main; header,footer也各一个。</p>
+            </details>
+        </article>
+        <aside>
+            <h3>小知识</h3>
+            <p>交互标签浏览器原生支持，不用写JavaScript。</p>
+        </aside>
+    </main>
+    <footer>
+        <hr>
+        <p>结合案例—— Web前端开发基础：HTML5结构标签+交互元素练习</p>
+    </footer>
+</body>
+</html>
